@@ -1,3 +1,11 @@
+/* ==> My weakest link at present is JavaScript so I am going
+        to use this project opportunity to create as much of 
+        this project site in JavaScript. Intent is to have
+        code sections: HTML, CSS, JavaScript. Will have each
+        section started with a comment.
+*/
+
+// ====> HTML portion of code
 // ==> Creating <section> tags, appending to body, assigning id's
 
 function sectionCreator() {
@@ -17,6 +25,8 @@ sectionSetIdCss.setAttribute("id", "css");
 const sectionSetIdJavascript = document.getElementsByTagName("section")[2];
 sectionSetIdJavascript.setAttribute("id", "javascript");
 
+// ==> Creating div's to style
+
 function divCreateHtml() {
     const div = document.createElement("div");
     document.querySelector("section#html").appendChild(div);
@@ -34,6 +44,8 @@ function divCreateJavascript() {
     document.querySelector("section#javascript").appendChild(div);
 }
 divCreateJavascript();
+
+// ==> Creating paragraphs for link placeholders
 
 function pCreateHtml() {
     const p = document.createElement("p");
@@ -62,25 +74,15 @@ function pCreateJavascript() {
 }
 pCreateJavascript();
 
+// ====> CSS portion of code
+// ==> Style time
+
+const paraTags = document.querySelectorAll(".pTag");
+paraTags.forEach(pTag => {
+    pTag.style.color = "#EEFBFB";
+});
 
 
-/*function divCreator () {
-    for (let i = 0; i < 3; i++) {
-        const div = document.createElement("div")
-        document.querySelector("section#html").appendChild(div)
-    }
-}*/
 
-/*
-const createSection = document.createElement("section");
-document.body.appendChild(createSection);
-const sectionSetIdJavaScript = document.getElementsByTagName("section")[2];
-sectionSetIdJavaScript.setAttribute("id", "javascript")
-*/
-
-/*
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-
-document.querySelector("body").appendChild(h2);
-*/
+// ====> JavaScript portion of code
+// ==>
