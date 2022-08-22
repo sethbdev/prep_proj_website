@@ -107,3 +107,16 @@ function highlightD () {
 function highlightE () {
     borderEventC.style.borderColor = "#EEFBFB"
 }
+
+// ==> JavaScript header border event
+
+borderEventJ.addEventListener("mouseover", highlightF, false);
+borderEventJ.addEventListener("mouseout", highlightG, false);
+
+function highlightF () {
+    borderEventJ.style.borderColor = "orange";
+}
+
+function highlightG () {
+    borderEventJ.style.borderColor = "#EEFBFB"
+}
