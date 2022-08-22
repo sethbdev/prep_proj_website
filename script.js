@@ -40,6 +40,7 @@ function pCreateHtml() {
     document.querySelector("section#html div").appendChild(p);
     const htmlP = document.querySelector("section#html div p");
     htmlP.innerHTML = "HTML";
+    htmlP.className = "pTag";
 }
 pCreateHtml();
 
@@ -48,6 +49,7 @@ function pCreateCss() {
     document.querySelector("section#css div").appendChild(p);
     const htmlP = document.querySelector("section#css div p");
     htmlP.innerHTML = "CSS";
+    htmlP.className = "pTag";
 }
 pCreateCss();
 
@@ -56,6 +58,7 @@ function pCreateJavascript() {
     document.querySelector("section#javascript div").appendChild(p);
     const htmlP = document.querySelector("section#javascript div p");
     htmlP.innerHTML = "JavaScript";
+    htmlP.className = "pTag";
 }
 pCreateJavascript();
 
