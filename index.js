@@ -29,7 +29,8 @@ function hCreateHtml() {
     const divSelect = document.getElementById("topics");
     divSelect.firstChild.appendChild(h);
     headSelect = document.querySelector("div h2");
-    headSelect.innerHTML = "HTML";
+    headSelect.innerHTML = "<a href='./resourcePages/htmlResources.html'>HTML</a>";
+    document.querySelector("a:link").style.color = "#EEFBFB";
 }
 hCreateHtml();
 
@@ -38,7 +39,8 @@ function hCreateCss() {
     const divSelect = document.querySelector("#topics :nth-child(2)");
     divSelect.append(h)
     headSelect = document.querySelector("#topics :nth-child(2) h2");
-    headSelect.innerHTML = "CSS";
+    headSelect.innerHTML = "<a href='./resourcePages/cssResources.html'>CSS</a>";
+    document.querySelector("a:link").style.color = "#EEFBFB";
 }
 hCreateCss();
 
@@ -47,7 +49,8 @@ function hCreateJs() {
     const divSelect = document.querySelector("#topics :nth-child(3)");
     divSelect.append(h)
     headSelect = document.querySelector("#topics :nth-child(3) h2");
-    headSelect.innerHTML = "JavaScript";
+    headSelect.innerHTML = "<a href='./resourcePages/jsResources.html'>JavaScript</a>";
+    document.querySelector("a:link").style.color = "#EEFBFB";
 }
 hCreateJs();
 
