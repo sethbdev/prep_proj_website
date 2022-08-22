@@ -35,6 +35,32 @@ function divCreateJavascript() {
 }
 divCreateJavascript();
 
+function pCreateHtml() {
+    const p = document.createElement("p");
+    document.querySelector("section#html div").appendChild(p);
+    const htmlP = document.querySelector("section#html div p");
+    htmlP.innerHTML = "HTML";
+}
+pCreateHtml();
+
+function pCreateCss() {
+    const p = document.createElement("p");
+    document.querySelector("section#css div").appendChild(p);
+    const htmlP = document.querySelector("section#css div p");
+    htmlP.innerHTML = "CSS";
+}
+pCreateCss();
+
+function pCreateJavascript() {
+    const p = document.createElement("p");
+    document.querySelector("section#javascript div").appendChild(p);
+    const htmlP = document.querySelector("section#javascript div p");
+    htmlP.innerHTML = "JavaScript";
+}
+pCreateJavascript();
+
+
+
 /*function divCreator () {
     for (let i = 0; i < 3; i++) {
         const div = document.createElement("div")
