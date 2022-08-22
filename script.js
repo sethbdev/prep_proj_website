@@ -1,9 +1,10 @@
+// 
 /* ==> My weakest link at present is JavaScript so I am going
         to use this project opportunity to create as much of 
         this project site in JavaScript. Intent is to have
         code sections: HTML, CSS, JavaScript. Will have each
         section started with a comment.
-*/
+
 
 // ====> HTML portion of code
 // ==> Creating <section> tags, appending to body, assigning id's
@@ -84,5 +85,7 @@ paraTags.forEach(pTag => {
 
 
 
+
 // ====> JavaScript portion of code
 // ==>
+*/

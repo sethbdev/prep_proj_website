@@ -12,8 +12,16 @@ body {
 
 h1 {
     color: #EEFBFB;
+    text-align: center;
 }
 
 h2 {
     color: #EEFBFB;
 }
+
+section#topics > div {
+    float: left;
+    text-align: center;
+    width: 33%;
+    padding: 2px;
+  }
